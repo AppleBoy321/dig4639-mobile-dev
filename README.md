@@ -5,4 +5,6 @@ This repository contains work completed during Spring 2020 in Dr. Murray's DIG46
 The *ice* folder contains in-class exercises. 
 
 ## About Me
-This should be replaced.
+David Richard
+https://www.linkedin.com/in/david-c-richard-55386619a
+I would be great at designing mobile apps and web apps. This would include the user interface and the user experience. As well as the overall look of the mobile app or web app.
