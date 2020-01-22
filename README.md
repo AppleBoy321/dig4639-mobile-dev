@@ -8,3 +8,8 @@ The *ice* folder contains in-class exercises.
 David Richard
 https://www.linkedin.com/in/david-c-richard-55386619a
 I would be great at designing mobile apps and web apps. This would include the user interface and the user experience. As well as the overall look of the mobile app or web app.
+
+
+## Conflicfs
+
+This section represents code on the server that isn't on the loacal repository.
