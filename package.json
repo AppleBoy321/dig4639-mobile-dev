@@ -1,0 +1,22 @@
+{
+  "name": "dig4639-mobile-dev",
+  "version": "0.1.0",
+  "description": "Initial version of DIG 4639 for UCF",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lucidbard/dig4639-mobile-dev.git"
+  },
+  "author": "Dr. John T Murray",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lucidbard/dig4639-mobile-dev/issues"
+  },
+  "homepage": "https://github.com/lucidbard/dig4639-mobile-dev#readme",
+  "dependencies": {
+    "jest": "^24.9.0"
+  }
+}
