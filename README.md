@@ -8,3 +8,8 @@ The *ice* folder contains in-class exercises.
 David Richard
 https://www.linkedin.com/in/david-c-richard-55386619a
 I would be great at designing mobile apps and web apps. This would include the user interface and the user experience. As well as the overall look of the mobile app or web app.
+
+## Merging
+1. Item 1 [Google](http://www.google.com)
+2. Item 2
+3. Item 3
