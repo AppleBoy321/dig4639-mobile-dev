@@ -15,11 +15,17 @@ class Task {
         span.innerHTML = this.props.content;
         this.element.className = "task";
     }
+    
     onClick(e) {
+        var myString = "eouaeou"
+        if(myString != "") {
+            console.log("INPUT IS TRUE")
+        }
         console.log(this);
         console.log(e.target);
-        console.log(e.target.checked);
+        console.log();
     }
+   
     render() {
         return this.element;
     }
