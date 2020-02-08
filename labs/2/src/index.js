@@ -1,3 +1,4 @@
+// Import correct component
 import Card from "./components/Card/index.js"
 
 function runOnLoad()
