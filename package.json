@@ -18,5 +18,11 @@
   "homepage": "https://github.com/lucidbard/dig4639-mobile-dev#readme",
   "dependencies": {
     "jest": "^24.9.0"
+  },
+  "keywords": [],
+  "devDependencies": {
+    "babel-eslint": "^10.0.3",
+    "eslint": "^6.8.0",
+    "eslint-plugin-react": "^7.18.3"
   }
 }

@@ -9,15 +9,19 @@ class Pet {
     getName() {
         return this.props.name;
     }
+
     getSpecies() {
         return this.props.species;
     }
+
     getSpeech() {
         return "I make this sound: ";
     }
+
     getIdenity = () => {
         console.log(this);
     }
+    
     getSum = (a+b) => {
         return a + b
     }
