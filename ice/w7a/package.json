@@ -4,7 +4,7 @@
   "description": "",
   "main": "MyMath.js",
   "scripts": {
-    "test": "jest"
+    "test": "jest --watch"
   },
   "type": "module",
   "author": "",
