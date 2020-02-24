@@ -18,15 +18,15 @@ function TodoItem(props) {
 }
 
 function App() {
-  const todoArray = [
-    <TodoItem content="Item 1" />,
-    <TodoItem content="Item 2" />,
-    <TodoItem content="Item 3" />
-  ]
+  const todoListFlitered = todoList.filter((value) => value.completed)
+
+  let todoArray = todoListFlitered.map(
+    (value) => <TodoItem content={value.content} />
+  )
+
   return (
-    <div>
-      {todoArray}
-    </div>
+    todoList.filter((v) => v.completed).map(
+      (v) => <TodoItem priority={v.priority} content={v.content} completed={v.completed}/>)
   );
 }
 
