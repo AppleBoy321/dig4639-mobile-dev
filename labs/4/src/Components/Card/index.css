@@ -1,0 +1,23 @@
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 80%;
+    margin: auto;
+    text-align: center;
+    padding: 1em;
+    background-color: lightskyblue;
+    border-radius: 30px;
+    margin-bottom: 3%;
+    margin-top: 3%;
+    color: royalblue;
+  }
+  
+  .close {
+    font-size: 1.5em;
+    float: right;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  body {
+    background-color: rgb(226, 226, 226);
+  }
