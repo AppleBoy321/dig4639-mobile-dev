@@ -19,5 +19,15 @@
   }
 
   body {
-    background-color: rgb(226, 226, 226);
+    background-color: rgb(87, 224, 248);
+  }
+
+  h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+    text-align: center;
   }
