@@ -5,6 +5,7 @@ const fetch = require("node-fetch");
 const cors = require('cors')
 const app = express()
 const port = 3001
+/* Step 2
 const simpleJson = {a: 10, 
   b: "Hello DIG4639!", 
   list:[
@@ -13,10 +14,15 @@ const simpleJson = {a: 10,
     {title:"Tomorrow",
     content: "Completing Homework"}
   ]
-}
+} 
+*/
+const helloWorld = "Hello World"
+
 app.use(cors())
 app.get('/', async (req, res) => {
-  res.send(simpleJson)
+  // Step 2:
+  // res.send(simpleJson)
+  res.send(helloWorld)
 })
 
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))

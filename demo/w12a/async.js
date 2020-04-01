@@ -25,10 +25,9 @@ function promisedOne() {
   })
 }
 
-/* promisedOne()
+promisedOne()
   .then(
     (value)=>{console.log("Resolved with " + value)})
-*/
 
 async function iNSync() {
   let value = await promisedOne()
