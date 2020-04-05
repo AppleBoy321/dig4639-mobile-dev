@@ -1,5 +1,37 @@
+/* .card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 70%;
+  margin: auto;
+  text-align: center;
+  padding: 1em;
+  background-color: rgb(213, 247, 248);
+  margin-top: 15px;
+  border-radius: 30px;
+}
+
+.title {
+  color: rgb(243, 95, 115);
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  font-style: italic;
+  font-size: 28px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.temp {
+  font-size: 40px;
+  line-height: 10px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background-color: rgb(222, 233, 128);
+  font-family: monospace;
+  font-size: 15px;
+} */
+
 .card {
-  border-radius: 18px;
+  border-radius: 33px;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   max-width: 80%;
   margin: auto;

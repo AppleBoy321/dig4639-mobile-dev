@@ -1,0 +1,71 @@
+[
+    {
+      "question": "1. What is the true color of the Sun?",
+      "answers" :
+        [
+          {"text": "Yellow",
+          "correct": false
+          },
+          {
+            "text": "White",
+            "correct": true
+          }
+        ]
+    },
+    {
+      "question": "2. Mars was named after the Roman god of War?",
+      "answers": 
+        [
+          {
+            "text": "No",
+            "correct": false
+          },
+          {
+            "text": "Yes",
+            "correct": true
+          }
+        ]
+    },
+    {
+      "question": "3. Why is the sky blue?",
+      "answers": 
+        [
+          {
+            "text": "Scattering of light particles.",
+            "correct": true
+          },
+          {
+            "text": "Stained from the rain.",
+            "correct": false
+          }
+        ]
+    },
+    {
+      "question": "4. What is the best mobile OS",
+      "answers":
+        [
+          {
+            "text": "iOS",
+            "correct": true
+          },
+          {
+            "text": "Android.",
+            "correct": true
+          }
+        ]
+    },
+    {
+      "question": "5. Do you perfer the rain or sunshine?",
+      "answers": 
+        [
+          {
+            "text": "Rain.",
+            "correct": true
+          },
+          {
+            "text": "Sunshine.",
+            "correct": true
+          }
+        ]
+    }
+  ]
