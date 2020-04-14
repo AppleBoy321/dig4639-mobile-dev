@@ -6,7 +6,7 @@ import { ScrollView } from 'react-native-gesture-handler';
 
 import { MonoText } from '../components/StyledText';
 
-export default class HomeScreen extends React.Component {
+export default class ToDoScreen extends React.Component {
   state = {todoList:[]}
 
   componentDidMount() {
@@ -66,7 +66,7 @@ export default class HomeScreen extends React.Component {
   }
 }
 
-HomeScreen.navigationOptions = {
+ToDoScreen.navigationOptions = {
   header: null,
 };
 
@@ -139,7 +139,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginHorizontal: 50,
   },
-  homeScreenFilename: {
+  ToDoScreenFilename: {
     marginVertical: 7,
   },
   codeHighlightText: {

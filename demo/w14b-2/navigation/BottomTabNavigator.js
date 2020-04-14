@@ -2,8 +2,8 @@ import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import * as React from 'react';
 
 import TabBarIcon from '../components/TabBarIcon';
-import HomeScreen from '../screens/HomeScreen';
-import LinksScreen from '../screens/LinksScreen';
+import HomeScreen from '../screens/ToDoScreen';
+import LinksScreen from '../screens/AddTaskScreen';
 
 const BottomTab = createBottomTabNavigator();
 const INITIAL_ROUTE_NAME = 'Home';
@@ -20,16 +20,16 @@ export default function BottomTabNavigator({ navigation, route }) {
         name="Home"
         component={HomeScreen}
         options={{
-          title: 'Get Started',
-          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-code-working" />,
+          title: 'ToDo List',
+          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="ios-list" />,
         }}
       />
       <BottomTab.Screen
         name="Links"
         component={LinksScreen}
         options={{
-          title: 'Resources',
-          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="md-book" />,
+          title: 'Add Task',
+          tabBarIcon: ({ focused }) => <TabBarIcon focused={focused} name="ios-add" />,
         }}
       />
     </BottomTab.Navigator>
@@ -43,6 +43,6 @@ function getHeaderTitle(route) {
     case 'Home':
       return 'How to get started';
     case 'Links':
-      return 'Links to learn more';
+      return 'Too List';
   }
 }
