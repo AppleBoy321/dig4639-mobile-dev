@@ -1,0 +1,16 @@
+.profile-title {
+    color: white;
+    text-transform: uppercase;
+    margin: auto;
+    width: fit-content;
+    text-align: center;
+    letter-spacing: 1px;
+    font-style: italic;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: .015px 20px;
+    background-image: linear-gradient(rgb(122, 221, 251), rgb(2, 158, 255));
+    margin-top: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 12px #a0a0a0;
+}

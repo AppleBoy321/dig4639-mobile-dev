@@ -1,0 +1,40 @@
+
+.delete{
+  float: right;
+  background-color: rgb(248, 73, 111);
+  border-style: none;
+  padding: 3px 6px;
+  font-weight: bold;
+  font-size: 14px;
+  margin-left: 10px;
+  border-radius: 5px;
+  color: white;
+  text-align: center;
+}
+
+table { 
+  border-collapse: collapse; 
+  margin-top: 15px;
+}
+
+tr.border_bottom td {
+  border-bottom:1pt solid black;
+}
+
+.colored {
+  color: rgb(0, 0, 0);
+  font-weight: bold;
+}
+
+
+.delete:hover{
+  background-color: rgb(223, 90, 119);
+}
+
+.contacts {
+  text-align: center;
+  margin: auto;
+  width: fit-content;
+  padding-top: 20px;
+  
+}
